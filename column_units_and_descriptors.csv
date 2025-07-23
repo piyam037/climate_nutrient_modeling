@@ -1,0 +1,57 @@
+csv_name,Column_name,Type,Units,Rdf_type,Rdf_term,Description   
+Rainfall_15min.csv,Datetime,datetime,CCYY-MM-DDThh:mm:ssZ,http://schema.org/DateTime,DateTime,"The date and time of the rainfall measurement. Formatted to ISO 8601, where the T is a separator of the time and date, and the Z indicates UTC time zone. "
+Rainfall_15min.csv,Rainfall,number,mm,,,The median rainfall across the North Wyke Farm Platform catchments. See the text for a description of the method used for the processing and quality control of this data. 
+Rainfall_daily.csv,Date,date,CCYY-MM-DD ,http://schema.org/Date,Date  ,The date on which the daily Rainfall_total applies
+Rainfall_daily.csv,Rainfall_total,number,mm,,,"The total rainfall for the data, calculated as the sum of Rainfall in Rainfall_15min.csv for the appropriate date"
+Flowrate.csv,Datetime,datetime,CCYY-MM-DDThh:mm:ssZ,http://schema.org/DateTime,DateTime,"The date and time at which the measurement was made.Formatted to ISO 8601, where the T is a separator of the time and date, and the Z indicates UTC time zone. "
+Flowrate.csv,Flow_rate,number,l/s,,,Volumetric flow rate of the water going through the flume on the Catchment. 
+Flowrate.csv,Catchment,integer,,,,The North Wyke Farm Platform catchment on which the flume used in the measurement of the flow rate was situated. See the text for a description of the method used for the processing and quality control of this data. 
+Sediment.csv,Datetime,datetime,CCYY-MM-DDThh:mm:ssZ,http://schema.org/DateTime,DateTime,"The date and time at which the measurement was made. Formatted to ISO 8601, where the T is a separator of the time and date, and the Z indicates UTC time zone. "
+Sediment.csv,Sediment,number,mg/l,,,"Sediment concentration in the flume water, as calculated from the measure of turbidity of the water and universal rating curves for the conversion to sediment. See the text for further details, and for a description of the method used for the processing and quality control of this data. "
+Sediment.csv,Catchment,integer,,,,The North Wyke Farm Platform catchment on which the flume used in the estimation of the sediment concentration was situated.
+Nitrate.csv,Datetime,datetime,CCYY-MM-DDThh:mm:ssZ,http://schema.org/DateTime,DateTime,"The date and time at which the measurement was made. Formatted to ISO 8601, where the T is a separator of the time and date, and the Z indicates UTC time zone. "
+Nitrate.csv,Nitrate,number,mg/l,,,The nitrate concentration in the flume water. See the text for a description of the method used for the processing and quality control of this data. 
+Nitrate.csv,Catchment,integer,,,,The North Wyke Farm Platform catchment on which the flume used in the measurement of the nitrate concentration was situated.
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
