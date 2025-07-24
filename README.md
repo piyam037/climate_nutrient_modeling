@@ -55,3 +55,7 @@ MIT License
 ## Author
 
 Piya Mohasin
+
+## Citation
+Zhang Y. and Collins A. (2024). Processed high resolution rainfall, flow rate, sediment and nitrate concentration data [Data set]. Rothamsted Research.
+https://doi.org/10.23637/17dquvlt
